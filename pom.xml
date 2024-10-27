@@ -43,6 +43,11 @@
             <artifactId>azure-storage-blob</artifactId>
             <version>12.22.0</version> <!-- Check for the latest version -->
         </dependency>
+        <dependency>
+            <groupId>com.azure</groupId>
+            <artifactId>azure-cosmos</artifactId>
+            <version>4.26.0</version> <!-- Verifique a última versão estável no site do Maven Central -->
+        </dependency>
     </dependencies>
 
     <build>

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Az204Cosmos",
+      "request": "launch",
+      "mainClass": "com.cosmos.Az204Cosmos",
+      "projectName": "Azure"
+    },
+    {
+      "type": "java",
       "name": "blob",
       "request": "launch",
       "mainClass": "com.blob.blob",

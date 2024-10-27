@@ -35,7 +35,7 @@ public class blob {
 
     private static void crateContainer(){
         // Copy the connection string from the portal in the variable below
-        String storageConnectionString = "";
+        String storageConnectionString = "  ";
 
         // Create a client that can authenticate with a connection string
         BlobServiceClient blobServiceClient = new BlobServiceClientBuilder()
@@ -151,6 +151,7 @@ public class blob {
             System.out.println("\nDownloading blob to\n\t" + downloadFilePath + "\n");
 
             blobClient.downloadToFile(downloadFilePath);
+            blobClient.
 
             System.out.println("\nLocate the local file in the data directory created earlier to verify it was downloaded.");
             System.out.println("The next step is to delete the container and local files.");
